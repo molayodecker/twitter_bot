@@ -1,0 +1,23 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "A Simple Twitter Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Twitter",
+    "Bot",
+    "Twitterbot",
+    "Twitter",
+    "bot"
+  ],
+  "author": "Arthur Decker",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "gulp-jslint": "^1.0.10"
+  }
+}
