@@ -2,7 +2,7 @@ var Twit = require('twit');
 var config = require('./config');
 var T = new Twit(config);
 
-//tweetIt();
+tweetIt();
 getTweet();
 
 function getTweet(){
