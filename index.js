@@ -2,7 +2,8 @@ var Twit = require('twit');
 var config = require('./config');
 var T = new Twit(config);
 
-tweetIt();
+setInterval(tweetIt, 1000 * 60 * 2);
+
 getTweet();
 
 function getTweet(){
@@ -21,7 +22,7 @@ function getTweet(){
 
 
 function tweetIt(){
-       tweet = { status: '#GOT Jon Snow is the rightful King of Westeros' }
+       tweet = { status: ~~((Math.random()*10) + 1) + '#GOT Jon Snow is the rightful King of Westeros' }
 
 		T.post('statuses/update', tweet, tweeted);
 
